@@ -1,10 +1,16 @@
 <p>Profile</p>
 
+<form action="">
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search git users with user name">
+    </div>
+</form>
+
 <div *ngIf="profile">
     <div class="container">
         <div>
             {{profile.name}}<small>{{profile.login}}</small>
-            <span *ngIf='profile.company'>Works at {{profile.company}}</span>
+            <!-- <span *ngIf='profile.company'>Works at {{profile.company}}</span> -->
             {{profile.location}}
         </div>
     </div>
@@ -37,6 +43,8 @@
         <h1 class="panel-title">Repos</h1>
     </div>
 </div>
+
+
 
 
 </div>
