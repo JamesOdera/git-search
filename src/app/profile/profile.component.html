@@ -4,6 +4,8 @@
     <div class="container">
         <div>
             {{profile.name}}<small>{{profile.login}}</small>
+            <span *ngIf='profile.company'>Works at {{profile.company}}</span>
+            {{profile.location}}
         </div>
     </div>
 
