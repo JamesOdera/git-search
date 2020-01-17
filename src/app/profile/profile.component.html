@@ -1,1 +1,16 @@
-<p>profile works!</p>
+<p>Profile</p>
+
+<div *ngIf="profile">
+    <div class="container">
+        <div>
+            {{profile.name}}<small>{{profile.login}}</small>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <img src="{{profile.avatar_url}}" alt="">
+        </div>
+    </div>
+
+</div>
