@@ -17,13 +17,13 @@ body {
 .boxx {
     background-color: turquoise;
     padding: 30px;
+    
 }
 
 .box {
     float: left;
     height: 100%;
     padding: 20px;
-   
 }
 .btn {
     padding: 5px;
@@ -40,6 +40,19 @@ body {
     float: right;
     background-color: rgb(37, 37, 37);
     color: white;
+}
+
+#par{
+background-color: black;
+}
+#par:hover {
+    background-color: white;
+    color: black;
+}
+
+#para:hover {
+    background-color: white;
+    color: black;
 }
 
 #fol,
