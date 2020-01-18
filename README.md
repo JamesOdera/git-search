@@ -34,6 +34,18 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+## Installations
+
+## Cloning
+Make sure you have all the Requirements or running angular apps installed such as node,npm,
+Clone the project into your machine from https://github.com/JamesOdera/git-search.git
+Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.'''
+
+## Technology Used
+- Angular JS
+- HTML
+- CSS
+
 
 ## [![codebeat badge](https://codebeat.co/badges/c5abc07f-75b6-4d3a-9075-ab8ea2115f0b)](https://codebeat.co/projects/github-com-jamesodera-git-search-master)
 
