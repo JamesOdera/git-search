@@ -16,7 +16,7 @@ export class ProfileComponent implements OnInit {
       console.log(profile);
       this.profile = profile;
     });
-    this.profileService.getProfileInfo().subscribe(repos=>{
+    this.profileService.getProfileRepos().subscribe(repos=>{
       console.log(repos);
       this.repos = repos;
     })
@@ -29,7 +29,7 @@ export class ProfileComponent implements OnInit {
       console.log(profile);
       this.profile = profile;
     });
-    this.profileService.getProfileInfo().subscribe(repos=>{
+    this.profileService.getProfileRepos().subscribe(repos=>{
       console.log(repos);
       this.repos = repos;
     });

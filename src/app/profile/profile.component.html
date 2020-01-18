@@ -2,7 +2,7 @@
 
 <form class="search-form" [(ngModel)]="username" name="username" (keyup)="findProfile()">
     <div class="form-group">
-        <input type="text" class="form-control" placeholder="Search git users with user name">
+        <input type="text" class="form-control" placeholder="Search git users with username">
     </div>
 </form>
 
@@ -22,9 +22,11 @@
     </div>
 
     <div class="col-sm-5">
-        <ul class="row">{{profile.bio}}</ul>
-        <ul class="row">{{profile.blog}}</ul>
-        <ul class="row">{{profile.email}}</ul>
+        <ul>
+        <li class="row">{{profile.bio}}</li>
+        <li class="row">{{profile.blog}}</li>
+        <li class="row">{{profile.email}}</li>
+        </ul>
     </div>
 
     <div class="col-sm-12">
@@ -41,6 +43,14 @@
 <div class="panel panel-default">
     <div class="panel-heading">
         <h1 class="panel-title">Repos</h1>
+    </div>
+    <div class="panel-body"  *ngFor='let repo of repos'>
+        <p>
+            {{repo.name}} <a href="{{repo.html_url}}" class="btn btn-warning" target="_blank">View this project on github</a>
+        </p>
+        <p class="clearfix">
+            {{repo.description}}
+        </p>
     </div>
 </div>
 
