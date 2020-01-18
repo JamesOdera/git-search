@@ -9,7 +9,7 @@
 <div *ngIf="profile">
     <div class="container">
         <div>
-            {{profile.name}}<small>{{profile.login}}</small>
+            {{profile.name}}   <small>{{profile.login}}</small>
             <!-- <span *ngIf='profile.company'>Works at {{profile.company}}</span> -->
             {{profile.location}}
         </div>
@@ -17,7 +17,7 @@
 
     <div class="row">
         <div class="col-md-3">
-            <img src="{{profile.avatar_url}}" alt="">
+            <img src="{{profile.avatar_url}}" alt="" class="avatar">
         </div>
     </div>
 

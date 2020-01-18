@@ -8,8 +8,8 @@ import { ProfileService } from '../profile.service';
 })
 export class ProfileComponent implements OnInit {
 
-   profile: any;
-   repos: any;
+  private profile: any;
+  repos: any;
 
   constructor(private profileService: ProfileService) {
     this.profileService.getProfileInfo().subscribe(profile => {
