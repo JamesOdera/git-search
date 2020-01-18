@@ -8,18 +8,22 @@ body {
 
 .avatar {
     vertical-align: middle;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     text-align: center;
   }
 
+.boxx {
+    background-color: turquoise;
+    padding: 30px;
+}
 
 .box {
     float: left;
     height: 100%;
     padding: 20px;
-    border-style: solid;
+   
 }
 .btn {
     padding: 5px;
@@ -29,7 +33,6 @@ body {
 .panel {
     float: right;
     width: 50%;
-    border-style: solid;
     padding: 20px;
 }
 

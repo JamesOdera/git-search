@@ -1,11 +1,11 @@
 <p>Profile</p>
 
-<form class="search-form" [(ngModel)]="userName" name="userName" (keyup)="findProfile()">
+<form class="search-form" [(ngModel)]="username" name="username" (keyup)="findProfile()">
     <div class="form-group">
         <input type="text" class="form-control"  placeholder="Search git users with username">
     </div>
 </form>
-<div class="box">
+<div class="boxx">
 <div *ngIf="profile">
     <div class="container">
         <div>
@@ -20,7 +20,7 @@
 
     <div class="row">
         <div class="col-md-3">
-            <a><img src="{{profile.avatar_url}}" alt="" class="avatar"></a>
+            <img src="{{profile.avatar_url}}" alt="" class="avatar">
         </div>
     </div>
 

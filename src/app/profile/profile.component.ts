@@ -10,6 +10,7 @@ export class ProfileComponent implements OnInit {
 
   private profile: any;
   repos: any;
+  username: string;
 
   constructor(private profileService: ProfileService) {
     this.profileService.getProfileInfo().subscribe(profile => {
