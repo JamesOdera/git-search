@@ -4,6 +4,9 @@ body {
 
 .search-form{
     padding-top: 50px;
+    background-color: rgb(107, 107, 107);
+    color: white;
+    text-align: center;
 }
 
 .avatar {
