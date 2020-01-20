@@ -50,7 +50,7 @@ Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will 
 ## [![codebeat badge](https://codebeat.co/badges/c5abc07f-75b6-4d3a-9075-ab8ea2115f0b)](https://codebeat.co/projects/github-com-jamesodera-git-search-master)
 
 
-Copyright (c) [2020] [James Odera]
+Copyright (c) 2020
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
